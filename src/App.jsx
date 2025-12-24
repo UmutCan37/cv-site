@@ -199,9 +199,32 @@ export default function App() {
         <section id="about" className="min-h-screen flex flex-col justify-center py-20">
           <h2 className="text-4xl font-bold mb-8 text-center">Hakkımda</h2>
           <div className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-2xl p-8">
-            <p className="text-lg text-slate-300 leading-relaxed">2025 yılı Temmuz ayında Tekirdağ Namık Kemal Üniversitesi Bilgisayar Mühendisliği bölümünden <span className="text-emerald-400 font-semibold">3.44 GNO</span> ile mezun oldum.</p>
-            <p className="mt-4 text-lg text-slate-300 leading-relaxed">Öğrencilik hayatım boyunca gerçekleştirdiğim 3 farklı staj sayesinde özellikle backend geliştirme alanında yoğun deneyim kazandım. ASP.NET, C#, Python, Entity Framework, SQL, PostgreSQL, MongoDB gibi teknolojilerle uygulamalar geliştirdim.</p>
-            <p className="mt-4 text-lg text-slate-300 leading-relaxed">Backend geliştirme alanında kendimi sürekli geliştirerek sağlam, ölçeklenebilir ve güvenli sistemler tasarlamayı hedefliyorum. Takım çalışmasına yatkın, analitik düşünen ve çözüm odaklı bir yazılım geliştirici olarak sektöre değer katmayı amaçlıyorum.</p>
+            <p className="text-lg text-slate-300 leading-relaxed">
+              2025 yılı Temmuz ayında Tekirdağ Namık Kemal Üniversitesi Bilgisayar Mühendisliği bölümünden
+              <span className="text-emerald-400 font-semibold"> 3.44 GNO</span> ile mezun oldum.
+              Üniversite eğitimim boyunca yazılım geliştirme alanında hem teorik hem de pratik bilgiler edinmeye odaklandım.
+            </p>
+
+            <p className="mt-4 text-lg text-slate-300 leading-relaxed">
+              Öğrencilik hayatım boyunca tamamladığım <span className="text-emerald-400 font-semibold">3 farklı staj</span> sayesinde
+              özellikle <span className="text-emerald-400 font-semibold">backend geliştirme</span> alanında yoğun deneyim kazandım.
+              Bu süreçte ASP.NET, C#, Python, Entity Framework, SQL, PostgreSQL ve MongoDB gibi teknolojilerle
+              katmanlı mimariye sahip uygulamalar geliştirdim.
+            </p>
+
+            <p className="mt-4 text-lg text-slate-300 leading-relaxed">
+              Şu anda <span className="text-emerald-400 font-semibold">M&Y Akademi</span> bünyesinde
+              <span className="text-emerald-400 font-semibold"> .NET Full Stack Developer</span> eğitimi almaktayım.
+              Bu eğitim kapsamında ASP.NET Core, Web API ve Entity Framework Core başta olmak üzere
+              modern web uygulamaları geliştirerek full stack bakış açımı güçlendirmekteyim.
+            </p>
+
+            <p className="mt-4 text-lg text-slate-300 leading-relaxed">
+              Backend geliştirme alanında kendimi sürekli geliştirerek
+              <span className="text-emerald-400 font-semibold">ölçeklenebilir, güvenli ve sürdürülebilir</span> sistemler tasarlamayı hedefliyorum.
+              Takım çalışmasına yatkın, analitik düşünebilen ve çözüm odaklı bir yazılım geliştirici olarak
+              bulunduğum projelere ve ekiplere değer katmayı amaçlıyorum.
+            </p>
           </div>
         </section>
 
@@ -217,18 +240,26 @@ export default function App() {
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">C</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Kotlin</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">SQL</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">MongoDB</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">PostgreSQL</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">React (Temel)</span>
               </div>
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <h3 className="text-xl font-semibold mb-4 text-emerald-400">Teknolojiler</h3>
               <div className="flex flex-wrap gap-3">
-                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">ASP.NET</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">ASP.NET / ASP.NET Core</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">MVC Mimari</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Katmanlı Mimari (N-Tier)</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Entity Framework</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Dependency Injection</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Authentication & Authorization</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Odoo</span>
-                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">MongoDB</span>
-                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">PostgreSQL</span>
-                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Git</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Git/Github</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">ASP.NET Core Web API</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">LINQ</span>
+                <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">OOP</span>
               </div>
             </div>
 
@@ -247,6 +278,7 @@ export default function App() {
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Web Tasarımı</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Proje Yönetimi</span>
                 <span className="px-4 py-2 bg-slate-800/50 rounded-lg text-sm">Takım Çalışması</span>
+
               </div>
             </div>
           </div>
@@ -266,6 +298,39 @@ export default function App() {
                   <p className="text-slate-400 mt-2">2021 - 2025</p>
                   <p className="text-slate-300 mt-3">GNO: <span className="text-emerald-400 font-semibold">3.44</span></p>
                 </div>
+
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-emerald-500/20 rounded-lg">
+                  <GraduationCap className="text-emerald-400" size={32} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-semibold">Yönetim Bilişim Sistemleri</h3>
+                  <p className="text-emerald-400 mt-1"></p>
+                  <p className="text-slate-400 mt-2">2024-Devam Ediyor(Açıköğretim)</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-emerald-500/20 rounded-lg">
+                  <GraduationCap className="text-emerald-400" size={32} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-semibold">Full Stack .NET Development Eğtimi</h3>
+                  <p className="text-emerald-400 mt-1">M&Y Yazılım ve Akademi</p>
+                  <p className="text-slate-400 mt-2">2025-Devam Ediyor</p>
+                </div>
+
               </div>
             </div>
           </div>
@@ -284,7 +349,11 @@ export default function App() {
                   <h3 className="text-xl font-semibold">Python Developer Stajyeri</h3>
                   <p className="text-emerald-400">Dorak Holding</p>
                   <p className="text-sm text-slate-400 mt-1">Şubat 2025 - Haziran 2025</p>
-                  <p className="text-slate-300 mt-3 leading-relaxed">Python tabanlı Odoo ERP sistemi üzerinde geliştirmeler yaptım. Mevcut modüllerde özelleştirme ve yeni modül geliştirme süreçlerinde görev aldım.</p>
+                  <p className="text-slate-300 mt-3 leading-relaxed">Python tabanlı Odoo ERP sistemi üzerinde geliştirmeler yaptım. Mevcut modüller üzerinde özelleştirme çalışmaları gerçekleştirdim ve iş ihtiyaçlarına yönelik yeni modül geliştirme süreçlerinde aktif rol aldım.
+
+                    XML ve Python kullanarak form, rapor ve iş akışı düzenlemeleri yaptım; kullanıcı deneyimini ve iş süreçlerini iyileştirmeye yönelik çözümler geliştirdim. Backend tarafında iş kuralları, veri işleme ve veritabanı etkileşimlerini kapsayan fonksiyonel ve sürdürülebilir kodlar yazdım.
+
+                    Geliştirme sürecinde, iş birimleriyle iletişim kurarak gereksinim analizi yaptım; mevcut süreçleri inceleyip iyileştirme alanlarını belirledim. Analiz sonuçlarına göre çözümler tasarlayarak sistemin işleyişine katkı sağladım.</p>
                 </div>
               </div>
             </div>
@@ -298,7 +367,9 @@ export default function App() {
                   <h3 className="text-xl font-semibold">Full-Stack Developer Stajyer</h3>
                   <p className="text-emerald-400">Tiryaki Agro</p>
                   <p className="text-sm text-slate-400 mt-1">Temmuz 2024 - Eylül 2024</p>
-                  <p className="text-slate-300 mt-3 leading-relaxed">ASP.NET ile RESTful API geliştirme süreçlerine katkı sağladım. Entity Framework kullanarak veri modeli tasarımı ve veritabanı işlemleri gerçekleştirdim.</p>
+                  <p className="text-slate-300 mt-3 leading-relaxed">ASP.NET teknolojileri kullanarak RESTful API geliştirme süreçlerinde aktif rol aldım. Bu süreçte Entity Framework ile veri modeli tasarımı gerçekleştirdim; CRUD işlemleri, ilişkisel yapıların yönetimi ve performans odaklı veritabanı işlemleri üzerinde çalıştım.
+
+                    Mevcut sistemlerle entegre çalışan backend servislerde yeni özellik geliştirme, kod iyileştirme ve bakım faaliyetlerinde görev aldım.</p>
                 </div>
               </div>
             </div>
@@ -312,7 +383,9 @@ export default function App() {
                   <h3 className="text-xl font-semibold">Full-Stack Developer Stajyer</h3>
                   <p className="text-emerald-400">İETT</p>
                   <p className="text-sm text-slate-400 mt-1">Temmuz 2023 - Eylül 2023</p>
-                  <p className="text-slate-300 mt-3 leading-relaxed">ASP.NET ile web tabanlı uygulama geliştirme süreçlerine katkı sağladım. SQL veritabanı üzerinde veri sorgulama ve işlem gerçekleştirme çalışmaları yaptım.</p>
+                  <p className="text-slate-300 mt-3 leading-relaxed">ASP.NET ile web tabanlı uygulama geliştirme süreçlerine katkı sağladım. SQL
+                    veritabanı üzerinde veri sorgulama ve işlem gerçekleştirme çalışmaları yaptım. Entity
+                    Framework kullanarak veri modeli oluşturma ve CRUD işlemlerini   gerçekleştirdim.    </p>
                 </div>
               </div>
             </div>
