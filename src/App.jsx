@@ -221,7 +221,7 @@ export default function App() {
 
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
               Backend geliştirme alanında kendimi sürekli geliştirerek
-              <span className="text-emerald-400 font-semibold">ölçeklenebilir, güvenli ve sürdürülebilir</span> sistemler tasarlamayı hedefliyorum.
+              <span className="text-emerald-400 font-semibold"> ölçeklenebilir, güvenli ve sürdürülebilir</span> sistemler tasarlamayı hedefliyorum.
               Takım çalışmasına yatkın, analitik düşünebilen ve çözüm odaklı bir yazılım geliştirici olarak
               bulunduğum projelere ve ekiplere değer katmayı amaçlıyorum.
             </p>
