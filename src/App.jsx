@@ -326,7 +326,7 @@ export default function App() {
                   <GraduationCap className="text-emerald-400" size={32} />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold">Full Stack .NET Development Eğtimi</h3>
+                  <h3 className="text-2xl font-semibold">Full Stack .NET Development Eğitimi</h3>
                   <p className="text-emerald-400 mt-1">M&Y Yazılım ve Akademi</p>
                   <p className="text-slate-400 mt-2">2025-Devam Ediyor</p>
                 </div>
