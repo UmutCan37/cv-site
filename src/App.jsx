@@ -185,10 +185,16 @@ export default function App() {
           <p className="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">Backend geliştirme alanında uzmanlaşmış, ölçeklenebilir ve sürdürülebilir sistemler tasarlayan yazılım geliştirici</p>
 
           <div className="mt-8 flex gap-4 justify-center">
-            <a href="/UMUTCANYAVRU.pdf" download className="flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 rounded-lg transition font-semibold">
+            <a
+              href="/UMUTCANYAVRU.pdf"
+              download="Umut_Can_Yavru_CV.pdf"
+              type="application/pdf"
+              className="flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 rounded-lg transition font-semibold"
+            >
               <Download size={20} />
               CV İndir
             </a>
+
             <button onClick={() => scrollToSection("contact")} className="flex items-center gap-2 px-6 py-3 border border-emerald-500 hover:bg-emerald-500/20 rounded-lg transition">
               <Mail size={20} />
               İletişime Geç
