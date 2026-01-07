@@ -185,7 +185,7 @@ export default function App() {
           <p className="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">Backend geliştirme alanında uzmanlaşmış, ölçeklenebilir ve sürdürülebilir sistemler tasarlayan yazılım geliştirici</p>
 
           <div className="mt-8 flex gap-4 justify-center">
-            <a href="/UMUTCANYAVRUCV.pdf" download className="flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 rounded-lg transition font-semibold">
+            <a href="\UMUTCANYAVRUCV.pdf" download className="flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 rounded-lg transition font-semibold">
               <Download size={20} />
               CV İndir
             </a>
