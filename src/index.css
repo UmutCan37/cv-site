@@ -1,39 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  /* Fontlar (index.html'de Google Fonts'tan yükleniyor) */
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-html {
-  font-family: "Inter", system-ui, sans-serif;
-  background-color: #020617;
+  /* Yüzeyler */
+  --color-canvas: #0b0f14;
+  --color-surface: #121820;
+  --color-chip: #172230;
+
+  /* Çizgiler */
+  --color-line: #1e2833;
+  --color-line-strong: #2b3846;
+
+  /* Metin */
+  --color-fg: #e6edf3;
+  --color-fg-soft: #b7c2cd;
+  --color-fg-muted: #9aa7b4;
+
+  /* Vurgu */
+  --color-accent: #3ddc97;
+  --color-accent-ink: #06140d;
+
+  /* Hero'daki kod kartının syntax renkleri */
+  --color-code-keyword: #c792ea;
+  --color-code-type: #82aaff;
+  --color-code-string: #c3e88d;
+  --color-code-literal: #f78c6c;
 }
 
-.bg-grid {
-  background-image:
-    linear-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(16, 185, 129, 0.04) 1px, transparent 1px);
-  background-size: 4rem 4rem;
-}
-
-
-
-@keyframes codeFlow {
-  0% {
-    opacity: 0;
-    transform: translateX(-120px);
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Sabit navbar, anchor'a gidince başlığın üstünü örtmesin */
+    scroll-padding-top: 5rem;
   }
 
-  10% {
-    opacity: 0.5;
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 
-  90% {
-    opacity: 0.5;
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
 
-  100% {
-    opacity: 0;
-    transform: translateX(320px);
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
